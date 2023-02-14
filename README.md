@@ -25,17 +25,17 @@ Discount
 
 #Testing-1 Create login and registration routes
 
-      curl --header "Content-Type: application/json" \
+> curl --header "Content-Type: application/json" \
 >      --request POST \
 >      --data '{"email":"amitbhargav134@gmail.com","password":"password123","name":"Amit bhargav"}' \
 >         http://localhost:5000/register"""
 
 #Testing-2 User can login using email and password
 
-     curl --header "Content-Type: application/json"  
-     --request POST  
-     --data '{"email":"amitbhargav134@gmail.com","password":"password123"}'  \  
-        http://localhost:5000/login
+>  curl --header "Content-Type: application/json"  
+>  --request POST  
+>   --data '{"email":"amitbhargav134@gmail.com","password":"password123"}'  \  
+>        http://localhost:5000/login
 
 #User can also filter the products by search query (on title and description) & User can filter using price (min, max)
       curl --header "Content-Type: application/json" \
