@@ -37,7 +37,7 @@ Discount
 >   --data '{"email":"amitbhargav134@gmail.com","password":"password123"}'  \  
 >        http://localhost:5000/login
 
-**#Testing-3 User can also filter the products by search query & User can filter using price (min, max) ** 
+**#Testing-3 User can also filter the products by search query & User can filter using price (min, max)** 
 
  > curl --header "Content-Type: application/json" \
  > --header "Authorization: Bearer <JWT_TOKEN>" \
